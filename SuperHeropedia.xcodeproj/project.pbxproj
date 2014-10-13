@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4427AD719EC2C5E008D0557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427AD619EC2C5E008D0557 /* main.m */; };
 		E4427ADA19EC2C5E008D0557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427AD919EC2C5E008D0557 /* AppDelegate.m */; };
-		E4427ADD19EC2C5E008D0557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427ADC19EC2C5E008D0557 /* ViewController.m */; };
+		E4427ADD19EC2C5E008D0557 /* SuperHeroesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4427ADC19EC2C5E008D0557 /* SuperHeroesViewController.m */; };
 		E4427AE019EC2C5E008D0557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4427ADE19EC2C5E008D0557 /* Main.storyboard */; };
 		E4427AE219EC2C5E008D0557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4427AE119EC2C5E008D0557 /* Images.xcassets */; };
 		E4427AE519EC2C5E008D0557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4427AE319EC2C5E008D0557 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		E4427AD619EC2C5E008D0557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4427AD819EC2C5E008D0557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4427AD919EC2C5E008D0557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4427ADB19EC2C5E008D0557 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4427ADC19EC2C5E008D0557 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4427ADB19EC2C5E008D0557 /* SuperHeroesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperHeroesViewController.h; sourceTree = "<group>"; };
+		E4427ADC19EC2C5E008D0557 /* SuperHeroesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHeroesViewController.m; sourceTree = "<group>"; };
 		E4427ADF19EC2C5E008D0557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4427AE119EC2C5E008D0557 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4427AE419EC2C5E008D0557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				E4427AD819EC2C5E008D0557 /* AppDelegate.h */,
 				E4427AD919EC2C5E008D0557 /* AppDelegate.m */,
-				E4427ADB19EC2C5E008D0557 /* ViewController.h */,
-				E4427ADC19EC2C5E008D0557 /* ViewController.m */,
+				E4427ADB19EC2C5E008D0557 /* SuperHeroesViewController.h */,
+				E4427ADC19EC2C5E008D0557 /* SuperHeroesViewController.m */,
 				E4427ADE19EC2C5E008D0557 /* Main.storyboard */,
 				E4427AE119EC2C5E008D0557 /* Images.xcassets */,
 				E4427AE319EC2C5E008D0557 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4427ADD19EC2C5E008D0557 /* ViewController.m in Sources */,
+				E4427ADD19EC2C5E008D0557 /* SuperHeroesViewController.m in Sources */,
 				E4427ADA19EC2C5E008D0557 /* AppDelegate.m in Sources */,
 				E4427AD719EC2C5E008D0557 /* main.m in Sources */,
 			);
